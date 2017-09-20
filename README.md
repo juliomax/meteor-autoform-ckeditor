@@ -1,1 +1,1 @@
-# mathEditor
+# Use afFieldInput with inputtype: 'math'

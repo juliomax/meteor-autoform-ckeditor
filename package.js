@@ -1,10 +1,10 @@
 Package.describe({
-    name: 'matheditor',
+    name: 'vchitai:autoform-ckeditor',
     version: '0.0.1',
     // Brief, one-line summary of the package.
-    summary: '',
+    summary: 'CkEditor for aldeed:autoform',
     // URL to the Git repository containing the source code for this package.
-    git: '',
+    git: 'https://github.com/vchitai/meteor-autoform-ckeditor',
     // By default, Meteor will default to using README.md for documentation.
     // To avoid submitting documentation, set this field to null.
     documentation: 'README.md'
@@ -16,20 +16,12 @@ Package.onUse(function(api) {
     api.use([
         'templating',
         'jquery',
-        'underscore',
         'reactive-var',
         'aldeed:autoform',
     ], 'client');
 
     api.addFiles([
-        'load.js'
-    ], 'web.browser');
-    api.addFiles([
-        'client/mathinputbox.html', 
-        'client/mathinputbox.js',
-        'lib/client/templates.html',
-        'lib/client/templates.js',
-        'lib/client/autoform-ckeditor.js',
+        'client/afCkEditor.html',
+        'client/afCkEditor.js',
     ], 'client');
-
 });
