@@ -1,0 +1,17 @@
+<template name="afMathText">
+		<span id="{{fieldId}}"></span>
+		<div class="expression">
+		  <div id="{{displayId}}" style="display: none; padding: 9px; width: 222px;border: solid 1px; border-radius: 5px">
+		  	<div id = "closeButton" style="background-color: red;"><i class="fa fa-close"></i></div>
+		    <div class="pls express">$$+$$</div>
+		    <div class="min express">$$-$$</div>
+		    <div class="mul express">$$*$$</div>
+		    <div class="div express" style="font-size: 11px">$$/$$</div>
+		    <div class="sqr express">$$x^2$$</div>
+		    <div class="sqrt express">$$\sqrt{x}$$</div>
+		    <div class="sqrt3 express">$$\sqrt[3]{x}$$</div>
+		    <div class="pi express" style="font-size: 18px;">$$\pi$$</div>
+		  </div>
+		</div>
+		<input type="text" data-id="{{getId}}" style="display:none;" {{this.atts}} value={{this.value}}>
+</template>
