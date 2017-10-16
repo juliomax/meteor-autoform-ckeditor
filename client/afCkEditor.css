@@ -1,0 +1,45 @@
+div.cke_dialog_ui_vbox>table>tbody>tr:nth-child(3) {
+	display: inline-block;
+}
+
+div.cke_dialog_ui_vbox>table>tbody>tr:nth-child(4) {
+	display: inline-block;
+}
+
+div.cke_dialog_ui_vbox>table>tbody>tr:nth-child(5) {
+	display: inline-block;
+}
+
+div.cke_dialog_ui_vbox>table>tbody>tr:nth-child(6) {
+	display: inline-block;
+}
+
+div.cke_dialog_ui_vbox>table>tbody>tr:nth-child(7) {
+	display: inline-block;
+}
+
+div.cke_dialog_ui_vbox>table>tbody>tr:nth-child(8) {
+	display: inline-block;
+}
+
+div.cke_dialog_ui_vbox>table>tbody>tr:nth-child(9) {
+	display: inline-block;
+}
+
+div.cke_dialog_ui_vbox>table>tbody>tr:nth-child(10) {
+	display: inline-block;
+}
+
+div.cke_dialog_ui_vbox>table>tbody>tr>td>a.cke_dialog_ui_button {
+    width: 40px;
+    height: 40px;
+}
+
+div.cke_dialog_ui_vbox>table>tbody>tr>td.cke_dialog_ui_vbox_child {
+    width: 44px;
+}
+
+span.cke_widget_wrapper.cke_widget_inline.cke_widget_mathjax.cke_widget_wrapper_math-tex{
+	zoom: 1.2;
+}
+
