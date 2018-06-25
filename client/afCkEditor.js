@@ -9,8 +9,6 @@ Template.afCkEditor.onRendered(function() {
         $editor.setData('');
     });
     CKEDITOR.replace( editorId, {
-        extraPlugins: 'mathjax',
-        mathJaxLib: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML',
         height: 320
     } );
     if ( CKEDITOR.env.ie && CKEDITOR.env.version == 8 ) {
